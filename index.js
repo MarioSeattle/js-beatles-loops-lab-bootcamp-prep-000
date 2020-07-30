@@ -1,23 +1,32 @@
 // add solution here
 //Create a function theBeatlesPlay, which accepts two parameters--an array of musicians and an array of instruments.
 function theBeatlesPlay(arrMusicians, arrInstruments){
+  
   var emptyArr =  [];
+  
   for (var i = 0; i < arrMusicians.length; i++) {
+    
 //Use backtick loop body
  emptyArr.push(`${arrMusicians[i]} plays ${arrInstruments[i]}`);
+ 
 } 
+
   return emptyArr;
+  
 }
+
   //returns an array of strings with exclamation points
   //takes in any array of strings and returns a new array with exclamation points added to each element 
- function johnLennonFacts(johnLennonFacts) {
+ function johnLennonFacts(array) {
+   
    var i = 0;
-   while (i < johnLennonFacts.length) {
-     johnLennonFacts[i] = johnLennonFacts[i] + "!!!";
-     i++;
+   
+   while (i < array.length) {
+     
+     array[i] = array[i] + "!!!"; i++;
+     
    }
+   
    return johnLennonFacts;
+   
  }
- 
- 
- 
