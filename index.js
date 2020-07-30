@@ -7,6 +7,7 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
   for (var i = 0; i < arrMusicians.length; i++) {
     
 //Use backtick loop body
+
  emptyArr.push(`${arrMusicians[i]} plays ${arrInstruments[i]}`);
  
 } 
@@ -17,15 +18,12 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
 
   //returns an array of strings with exclamation points
   //takes in any array of strings and returns a new array with exclamation points added to each element 
+  
  function johnLennonFacts(array) {
    
    var i = 0;
    
-   while (i < array.length) {
-     
-     array[i] = array[i] + "!!!"; i++;
-     
-   }
+   while (i < array.length) {array[i] = array[i] + "!!!"; i++;}
    
    return array;
    
