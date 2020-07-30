@@ -8,12 +8,13 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
 } 
   return emptyArr;
 }
-
- function johnLennonFacts(array) {
+  //returns an array of strings with exclamation points
+  //takes in any array of strings and returns a new array with exclamation points added to each element 
+ function johnLennonFacts(johnLennonFacts) {
    var i = 0;
-   while (i < array.length) {
-     array[i] = array[i] + "!!!";
+   while (i < johnLennonFacts.length) {
+     johnLennonFacts[i] = johnLennonFacts[i] + "!!!";
      i++;
    }
-   return array;
+   return johnLennonFacts;
  }
