@@ -10,10 +10,10 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
 }
   //returns an array of strings with exclamation points
   //takes in any array of strings and returns a new array with exclamation points added to each element 
- function johnLennonFacts(johnLennonFactsArray) {
+ function johnLennonFacts(johnLennonFacts) {
    var i = 0;
-   while (i < johnLennonFactsArray.length) {
-     johnLennonFactsArray[i] = johnLennonFactsArray[i] + "!!!";
+   while (i < johnLennonFacts.length) {
+     johnLennonFacts[i] = johnLennonFacts[i] + "!!!";
      i++;
    }
    return johnLennonFacts;
