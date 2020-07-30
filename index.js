@@ -16,7 +16,7 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
      johnLennonFactsArray[i] = johnLennonFactsArray[i] + "!!!";
      i++;
    }
-   return johnLennonFactsA;
+   return johnLennonFacts;
  }
  
  
