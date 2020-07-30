@@ -23,7 +23,7 @@ function theBeatlesPlay(arrMusicians, arrInstruments){
    
    var i = 0;
    
-   while (i < array.length) {array[i] = array[i] + "!!!"; i++;}
+   while (i < array.length) {array[i] += "!!!"; i++;}
    
    return array;
    
